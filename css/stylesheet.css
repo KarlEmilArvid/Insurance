@@ -134,3 +134,25 @@ button{
     line-height: 24px;
     color: rgba(0, 0, 0, 0.6);
 }
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 45px;
+}
+
+nav a{
+padding-top: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+letter-spacing: -0.02em;
+color: #000000;
+}
+
+nav :hover{
+    opacity: 0.4;
+}
