@@ -28,6 +28,23 @@ a:link {
     grid-area: header;
 }
 
+.header .bigcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 491px;
+    margin: 0;
+    padding: 0;
+    background-color: #C7DDEA;
+}
+
+.header .header__family {
+    width: 60%;
+    height: 60%;
+    margin-left: 11rem;
+}
+
 .main {
     grid-area: main;
 }
@@ -35,6 +52,8 @@ a:link {
 .footer {
     grid-area: footer;
 }
+
+
 
 header .bigcard {
     background-color: #C7DDEA;
