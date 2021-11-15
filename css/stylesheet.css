@@ -14,18 +14,33 @@ a:link {
     text-decoration: none;
   }
 
-.wrapper{
+.header{
     display: grid;
     max-width: 1000px;
     grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(auto);
     grid-template-areas:
-    ". header header header header header header ."
+    ". header header header first first first ."
+    ". header header header second second second ."
     ". main main main main main main ."
-    ". footer footer footer footer footer footer ." ;
+    ". footer footer footer footer footer footer ."
+    ". nav nav nav nav nav nav .";
 }
 
-.header {
+.bigcard {
     grid-area: header;
+}
+
+.first {
+    grid-area: first;
+}
+
+.second {
+    grid-area: second;
+}
+
+.nav {
+    grid-area: nav;
 }
 
 .header .bigcard {
@@ -33,7 +48,6 @@ a:link {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
     margin: 0;
     padding: 0;
     background-color: #C7DDEA;
@@ -45,6 +59,25 @@ a:link {
     margin-left: 8rem;
 }
 
+.header .first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F17949;
+}
+
+.header .second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFB939;
+
+}
+
+.header {
+    grid-area: header;
+}
+
 .main {
     grid-area: main;
 }
@@ -54,16 +87,7 @@ a:link {
 }
 
 
-
-header .bigcard {
-    background-color: #C7DDEA;
-}
-
-header .smallcard {
-    background-color: #F17949;
-}
-
-header .second-smallcard {
+header .second {
     background-color: #FFB939;
 }
 
