@@ -17,11 +17,11 @@ a:link {
 .wrapper{
     display: grid;
     max-width: 1000px;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     grid-template-areas:
-    ". header header header header ."
-    ". main main main main ."
-    ". footer footer footer footer ." ;
+    ". header header header header header header ."
+    ". main main main main main main ."
+    ". footer footer footer footer footer footer ." ;
 }
 
 .header {
@@ -33,7 +33,7 @@ a:link {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 491px;
+    width: 50%;
     margin: 0;
     padding: 0;
     background-color: #C7DDEA;
@@ -42,7 +42,7 @@ a:link {
 .header .header__family {
     width: 60%;
     height: 60%;
-    margin-left: 11rem;
+    margin-left: 8rem;
 }
 
 .main {
