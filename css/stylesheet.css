@@ -384,4 +384,18 @@ footer h2{
 
 
 /** contact **/
+.banner{
+display: flex;
+width: 1002px;
+height: 340px;
+background: #C7DDEA;
+}
 
+.banner h1{
+
+text-align: center;
+font-family:'Frank Ruhl Libre', serif;
+font-weight: 900;
+font-size: 45px;
+color: #000000;
+}
