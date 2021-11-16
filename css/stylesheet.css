@@ -332,11 +332,34 @@ footer h2{
     color: rgba(0, 0, 0, 0.7);
 }
 
-footer{
-    width: 1002px;
-    height: 340px;
-    background: #777574;
+
+/** PROFILE CARDS **/
+
+.child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 400px;
+    border: 5px solid black;
 }
 
+.child__image {
+    width: 300px;
+    height: 200px;
+    transform: translateY(-100px);
+    object-fit: scale-down;
+    background-color: #C7DDEA;
+    margin: 0;
+}
 
+.child__heading {
+    margin: 0;
+    padding: 0;
+}
 
+.child__text {
+    margin: 0;
+    padding: 0;
+}
