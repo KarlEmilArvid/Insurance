@@ -94,16 +94,23 @@ header .second {
 }
 
 main .section-grey {
+    display: flex;
+    flex-direction: row;
     background-color: #A9A19E;
     width: 1002px;
     height: 680px;
 }
 
 main .section-yellow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #FAB131;
     width: 1002px;
     height: 680px;
 }
+
 
 
 
