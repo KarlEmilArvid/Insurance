@@ -470,3 +470,56 @@ font-weight: 900;
 font-size: 45px;
 color: #000000;
 }
+
+
+.contact{
+width: 1002px;
+height: 544px;
+background: #A9A19E;
+}
+
+.contact h2{
+    width: 314px;
+    height: 140px;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 900;
+    font-size: 45px;    
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+.map{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.map .mapbox{
+width: 323px;
+height: 206px;
+background: #FAB131;
+box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+padding: 2rem;
+}
+
+.map .mapbox h2{
+    font-family:'Frank Ruhl Libre', serif;
+    font-weight: 900;
+    font-size: 45px;    
+    color: #FFFFFF;
+}
+
+.map .mapbox p{
+    font-family:'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
