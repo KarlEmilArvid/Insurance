@@ -456,14 +456,29 @@ footer h2{
 
 /** contact **/
 
+.conheader {
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(auto);
+    grid-template-areas:
+    ". banner banner banner banner banner banner ."
+    ". . nav nav nav nav . .";
+}
+
+.contact-nav {
+    grid-area: nav;
+}
+
 
 .banner{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-width: 1002px;
-height: 340px;
-background: #C7DDEA;
+    grid-area: banner;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1002px;
+    height: 340px;
+    background: #C7DDEA;
 }
 
 .banner h1{
