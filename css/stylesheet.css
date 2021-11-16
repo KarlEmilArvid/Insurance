@@ -120,24 +120,32 @@ main .section-yellow {
 
 
 
-.section-yellow h2, .section-grey h2{
+.section-yellow h2{
 width: 314px;
 height: 140px;
 font-family: 'Frank Ruhl Libre', serif;
 font-weight: 900;
 font-size: 45px;
 color: #FFFFFF;
+text-align: center;
 }
 
-
+.section-grey h2{
+    width: 314px;
+    height: 140px;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 900;
+    font-size: 45px;
+    color: #FFFFFF;
+}
 
 .section-yellow p, .section-grey p{
-    width: 280px;
-    height: 237px;
+    width:  442px;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 500;
     font-size: 14px;
     color: rgba(0, 0, 0, 0.6);
+    text-align:center;
 
 }
 
