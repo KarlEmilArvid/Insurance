@@ -521,6 +521,25 @@ height: 500px;
     align-items: center;
 }
 
+
+.form button{
+
+    width: 101px;
+    height: 30px;
+  
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+   
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+
+
 textarea{
     width: 334px;
     height: 166px;
