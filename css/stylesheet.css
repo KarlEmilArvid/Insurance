@@ -21,9 +21,7 @@ body {
     align-items: center;
 }
 
-a:link {
-    text-decoration: none;
-  }
+a:link { text-decoration: none; }
 
 .header{
     display: grid;
@@ -38,21 +36,10 @@ a:link {
     ". . nav nav nav nav . .";
 }
 
-.bigcard {
-    grid-area: header;
-}
-
-.first {
-    grid-area: first;
-}
-
-.second {
-    grid-area: second;
-}
-
-.nav {
-    grid-area: nav;
-}
+.bigcard { grid-area: header; }
+.first { grid-area: first; }
+.second { grid-area: second; }
+.nav { grid-area: nav; }
 
 .wrapper{
     display: flex;
@@ -94,11 +81,6 @@ a:link {
 
 }
 
-
-header .second {
-    background-color: #FFB939;
-}
-
 main .section-grey {
     display: flex;
     flex-direction: row;
@@ -138,16 +120,10 @@ color: #FFFFFF;
     font-weight: 500;
     font-size: 14px;
     color: rgba(0, 0, 0, 0.6);
-
 }
 
 
-
-
-
-
 button{
-
     width: 131px;
     height: 39px;
     background: #FFFFFF;
@@ -181,40 +157,38 @@ button{
     ". card4 card4 card5 card5 card6 card6 .";
 }
 
-.section-grey {
-    grid-area: first;
-    width: 499px;
-}
-
-.section-yellow {
-    grid-area: second;
-    width: 499px;
-}
+.section-grey { grid-area: first; }
+.section-yellow { grid-area: second; }
 
 .card1 {
     grid-area: card1;
     display: flex;
     align-items: center;
+    background: #C7DDEA;
 }
 
 .card2 {
     grid-area: card2;
+    background: #ffffff;
 }
 
 .card3 {
     grid-area: card3;
+    background: #EBEBEB;
 }
 
 .card4 {
     grid-area: card4;
+    background: #FFFFFF;
 }
 
-.card5 {
+.card5{
     grid-area: card5;
+    background: #F17949;
 }
-
-.card6 {
+.card6{
     grid-area: card6;
+    background: #FFFFFF;
 }
 
 .bigcard h1{
@@ -313,26 +287,6 @@ margin: 0px;
     width: 334px;
     height: 340px;
     padding: 2rem;
-}
-
-
-.card1{
-    background: #C7DDEA;
-}
-.card2{
-    background: #ffffff;
-}
-.card3{
-    background: #EBEBEB;
-}
-.card4{
-    background: #FFFFFF;
-}
-.card5{
-    background: #F17949;
-}
-.card6{
-    background: #FFFFFF;
 }
 
 .card2 p, .card3 p, .card4 p, .card5 p, .card6 p{
