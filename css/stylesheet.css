@@ -335,7 +335,18 @@ footer h2{
 
 /** PROFILE CARDS **/
 
+.profile {
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(auto);
+    grid-template-areas:
+    ". child child adult adult old old .";
+
+}
+
 .child {
+    grid-area: child;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -360,6 +371,66 @@ footer h2{
 }
 
 .child__text {
+    margin: 0;
+    padding: 0;
+}
+
+.adult {
+    grid-area: adult;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 400px;
+    border: 5px solid black;
+}
+
+.adult__image {
+    width: 300px;
+    height: 200px;
+    transform: translateY(-100px);
+    object-fit: scale-down;
+    background-color: #C7DDEA;
+    margin: 0;
+}
+
+.adult__heading {
+    margin: 0;
+    padding: 0;
+}
+
+.adult__text {
+    margin: 0;
+    padding: 0;
+}
+
+.old {
+    grid-area: old;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 400px;
+    border: 5px solid black;
+}
+
+.old__image {
+    width: 300px;
+    height: 200px;
+    transform: translateY(-100px);
+    object-fit: scale-down;
+    background-color: #C7DDEA;
+    margin: 0;
+}
+
+.old__heading {
+    margin: 0;
+    padding: 0;
+}
+
+.old__text {
     margin: 0;
     padding: 0;
 }
