@@ -95,11 +95,43 @@ header .second {
 
 main .section-grey {
     background-color: #A9A19E;
+    width: 1002px;
+    height: 680px;
 }
 
 main .section-yellow {
     background-color: #FAB131;
+    width: 1002px;
+    height: 680px;
 }
+
+
+
+.section-yellow h2, .section-grey h2{
+width: 314px;
+height: 140px;
+font-family: 'Frank Ruhl Libre', serif;
+font-weight: 900;
+font-size: 45px;
+color: #FFFFFF;
+}
+
+
+
+.section-yellow p, .section-grey p{
+    width: 280px;
+    height: 237px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+
+
+
+
+
 
 button{
 
@@ -249,7 +281,7 @@ flex-wrap: wrap;
 justify-content:center;
 align-items: center;
 width: 1002px;
-margin: px;
+margin: 0px;
 }
 
 
