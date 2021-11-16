@@ -577,9 +577,20 @@ input{
 
 
 .map{
-   
+    width: 1002px;
+    height: 340px;
+    background: url(..//img/map-contact.png);
+    background-size: auto;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+
 }
 
+.map__background {
+    width: auto;
+    height: 300px;
+    background-color: #777574;
+}
 
 .map .mapbox{
 width: 323px;
@@ -603,9 +614,7 @@ padding: 2rem;
     color: rgba(255, 255, 255, 0.8);
 }
 
-.map{
 
-}
 
 .needle{
 
