@@ -190,13 +190,17 @@ nav{
 }
 
 nav a{
-padding-top: 25px;
+padding-top: 15px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 12px;
 letter-spacing: -0.02em;
-color: #000000;
+color: #00000075;
+}
+
+nav .nav__home {
+    color: #000000;
 }
 
 nav :hover{
