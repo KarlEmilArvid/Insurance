@@ -77,7 +77,6 @@ a:link { text-decoration: none; }
     align-items: center;
     background-color: #FFB939;
     width: 499px;
-
 }
 
 /** MAIN **/
@@ -172,7 +171,6 @@ main .section-yellow {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.6);
     text-align:center;
-
 }
 
 button{
@@ -181,7 +179,6 @@ button{
     background: #FFFFFF;
     box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
     border-radius: 100px;
-
     font-family:'Fira Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -267,7 +264,6 @@ button{
 }
         
 .card2 :nth-child(1), .card3 :nth-child(1), .card4 :nth-child(1), .card5 :nth-child(1), .card6 :nth-child(1){
-
     font-family:'Frank Ruhl Libre', serif;
     text-align: start;
     font-weight: 900;
