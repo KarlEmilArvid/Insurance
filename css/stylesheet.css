@@ -147,12 +147,12 @@ main .section-yellow {
 
 .section-yellow h2{
     width: 314px;
-    height: 140px;
     font-family: 'Frank Ruhl Libre', serif;
     font-weight: 900;
     font-size: 45px;
     color: #FFFFFF;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .section-grey h2{
