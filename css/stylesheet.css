@@ -35,7 +35,7 @@ a:link {
     ". header header header second second second ."
     ". main main main main main main ."
     ". footer footer footer footer footer footer ."
-    ". nav nav nav nav nav nav .";
+    ". . nav nav nav nav . .";
 }
 
 .bigcard {
@@ -163,6 +163,12 @@ button{
     border: none;
 }
 
+.header__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .main {
     display: grid;
     max-width: 1000px;
@@ -187,6 +193,8 @@ button{
 
 .card1 {
     grid-area: card1;
+    display: flex;
+    align-items: center;
 }
 
 .card2 {
@@ -216,6 +224,8 @@ button{
     font-size: 45px;
     color: #000000;
     width: 314px;
+    margin-top: 2rem;
+    margin-bottom: 0;
 }
 
 .bigcard p{
