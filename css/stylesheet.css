@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Frank+Ruhl+Libre:wght@300;400;500;700;900&display=swap');
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -24,7 +29,7 @@ a:link {
     ". header header header second second second ."
     ". main main main main main main ."
     ". footer footer footer footer footer footer ."
-    ". . nav nav nav nav . .";
+    ". nav nav nav nav nav nav .";
 }
 
 .bigcard {
@@ -43,14 +48,21 @@ a:link {
     grid-area: nav;
 }
 
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .header .bigcard {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    padding: 0;
     background-color: #C7DDEA;
+    width: 499px;
 }
 
 .header .header__family {
@@ -64,6 +76,7 @@ a:link {
     justify-content: center;
     align-items: center;
     background-color: #F17949;
+    width: 499px;
 }
 
 .header .second {
@@ -71,57 +84,25 @@ a:link {
     justify-content: center;
     align-items: center;
     background-color: #FFB939;
+    width: 499px;
 
 }
 
-.header .nav {
-    display: flex;
-    justify-content: space-between;
-    color: #000000;
+.header {
+    grid-area: header;
 }
 
-.main{
-    display: grid;
-    max-width: 1000px;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(auto);
-    grid-template-areas:
-    ". grey grey grey grey grey grey ."
-    ". yellow yellow yellow yellow yellow yellow ."
-    ". card1 card1 card2 card2 card3 card3 ."
-    ". card4 card4 card5 card5 card6 card6 .";
+.main {
+    grid-area: main;
 }
 
-.section-grey {
-    grid-area: grey;
+.footer {
+    grid-area: footer;
 }
 
-.section-yellow {
-    grid-area: yellow;
-}
 
-.card1 {
-    grid-area: card1;
-}
-
-.card2 {
-    grid-area: card2;
-}
-
-.card3 {
-    grid-area: card3;
-}
-
-.card4 {
-    grid-area: card4;
-}
-
-.card5 {
-    grid-area: card5;
-}
-
-.card6 {
-    grid-area: card6;
+header .second {
+    background-color: #FFB939;
 }
 
 main .section-grey {
@@ -132,19 +113,6 @@ main .section-yellow {
     background-color: #FAB131;
 }
 
-.footer{
-    display: grid;
-    max-width: 1000px;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(auto);
-    grid-template-areas:
-    ". footer footer footer footer footer footer .";
-}
-
-.footer {
-    grid-area: footer;
-}
-
 button{
 
     width: 131px;
@@ -153,7 +121,7 @@ button{
     box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
     border-radius: 100px;
 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Fira Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -162,25 +130,51 @@ button{
     border: none;
 }
 
-.bigcardh1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.bigcard h1{
+    font-family: 'Frank Ruhl Libre', serif;
     font-style: normal;
     font-weight: 900;
     font-size: 45px;
-    line-height: 100%;
-    letter-spacing: -0.02em;
     color: #000000;
+    width: 314px;
 }
 
-.bigcardp{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.bigcard p{
+    font-family:'Fira Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
     color: rgba(0, 0, 0, 0.6);
+    width: 268px;
 }
 
+.bigcard p span{
+    color: #FFFFFF;
+}
+
+.first, .second{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.first h2, .second h2{
+    font-family:'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.first a, .second a{
+    font-family:'Frank Ruhl Libre', serif;
+    font-weight: 900;
+    font-size: 32px;
+    color: #FFFFFF;
+}
 
 nav{
     display: flex;
@@ -205,4 +199,104 @@ nav .nav__home {
 
 nav :hover{
     opacity: 0.4;
+    padding-top: 15px;
+    font-family:'Fira Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #000000;
+}
+
+
+
+.sixcards{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:center;
+align-items: center;
+width: 1002px;
+margin: px;
+}
+
+
+.card1, .card2, .card3, .card4, .card5, .card6{
+    text-align: center;
+    width: 334px;
+    height: 340px;
+    padding: 2rem;
+}
+
+
+.card1{
+    background: #C7DDEA;
+}
+.card2{
+    background: #ffffff;
+}
+.card3{
+    background: #EBEBEB;
+}
+.card4{
+    background: #FFFFFF;
+}
+.card5{
+    background: #F17949;
+}
+.card6{
+    background: #FFFFFF;
+}
+
+.card2 p, .card3 p, .card4 p, .card5 p, .card6 p{
+
+    width: 257px;
+    height: 113px;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.7);
+    }
+
+
+
+.card2 :nth-child(1), .card3 :nth-child(1), .card4 :nth-child(1), .card5 :nth-child(1), .card6 :nth-child(1){
+
+    font-family:'Frank Ruhl Libre', serif;
+    text-align: start;
+    font-weight: 900;
+    font-size: 35px;   
+    color: rgba(0, 0, 0, 0.4);
+}
+    
+
+.card1 h2{
+    font-family:'Frank Ruhl Libre', serif;
+    font-weight: 900;
+    font-size: 45px;
+    text-align: center;
+    margin: 0px;
+}
+
+
+footer section{
+    padding: 1rem;
+    width: 1002px;
+    height: 68px;
+    background: #A9A19E;
+}
+
+footer h2{
+text-align: center;
+font-family:'Fira Sans', sans-serif;
+font-weight: 500;
+font-size: 17px;
+color: rgba(0, 0, 0, 0.7);
+}
+
+footer{
+width: 1002px;
+height: 340px;
+background: #777574;
 }
