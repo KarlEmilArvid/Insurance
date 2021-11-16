@@ -457,6 +457,8 @@ footer h2{
 /** contact **/
 .banner{
 display: flex;
+flex-direction: row;
+justify-content: space-around;
 width: 1002px;
 height: 340px;
 background: #C7DDEA;
@@ -493,12 +495,7 @@ background: #A9A19E;
 
 
 .map{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+   
 }
 
 
@@ -522,4 +519,12 @@ padding: 2rem;
     font-weight: 500;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.8);
+}
+
+.map{
+
+}
+
+.needle{
+
 }
