@@ -508,23 +508,22 @@ color: #000000;
 
 
 .contact{
-width: 1002px;
-height: 544px;
-background: #A9A19E;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: flex-start;
-padding: 3rem;
+    width: 1002px;
+    height: 544px;
+    background: #A9A19E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 3rem;
 }
 
 
 
 .form{
-height: 500px;
+    height: 500px;
     display: flex;
     flex-direction: column;
-
 }
 
 
@@ -591,7 +590,6 @@ input{
     background-size: auto;
     background-position: 100% 100%;
     background-repeat: no-repeat;
-
 }
 
 .map__background {
@@ -601,11 +599,15 @@ input{
 }
 
 .map .mapbox{
-width: 323px;
-height: 206px;
-background: #FAB131;
-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
-padding: 2rem;
+    width: 323px;
+    height: 206px;
+    background: #FAB131;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px
+
 }
 
 .map .mapbox h2{
@@ -613,13 +615,18 @@ padding: 2rem;
     font-weight: 900;
     font-size: 45px;    
     color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
 }
 
 .map .mapbox p{
+    width: 135px;
     font-family:'Fira Sans', sans-serif;
     font-weight: 500;
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);´
+    margin: 0px;
+    padding: 0px;
 }
 
 
