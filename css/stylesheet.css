@@ -489,7 +489,12 @@ footer h2{
     justify-content: space-around;
     width: 1002px;
     height: 340px;
-    background: #C7DDEA;
+    background: url(..//img/man-and-child.png) #C7DDEA;
+    background-size: cover;
+    background-position: 90% 100%;
+    background-repeat: no-repeat;
+    background-size: 180px;
+
 }
 
 .banner h1{
