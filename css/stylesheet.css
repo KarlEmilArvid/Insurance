@@ -125,7 +125,9 @@ button{
     grid-template-rows: repeat(auto);
     grid-template-areas:
     ". first first first first first first ."
-    ". second second second second second second .";
+    ". second second second second second second ."
+    ". card1 card1 card2 card2 card3 card3 ."
+    ". card4 card4 card5 card5 card6 card6 .";
 }
 
 .section-grey {
@@ -136,6 +138,30 @@ button{
 .section-yellow {
     grid-area: second;
     width: 499px;
+}
+
+.card1 {
+    grid-area: card1;
+}
+
+.card2 {
+    grid-area: card2;
+}
+
+.card3 {
+    grid-area: card3;
+}
+
+.card4 {
+    grid-area: card4;
+}
+
+.card5 {
+    grid-area: card5;
+}
+
+.card6 {
+    grid-area: card6;
 }
 
 .bigcard h1{
