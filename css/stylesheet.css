@@ -503,6 +503,36 @@ color: #000000;
 width: 1002px;
 height: 544px;
 background: #A9A19E;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+
+
+.form{
+height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+textarea{
+    width: 334px;
+    height: 166px;
+    background: #FEFEFE;
+    border-radius: 2px;
+    border: none;
+
+}
+
+input{
+    width: 334px;
+    height: 40px;
+    background: #FEFEFE;
+    border-radius: 2px;
+    border: none;
 }
 
 .contact h2{
