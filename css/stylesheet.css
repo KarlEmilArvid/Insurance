@@ -107,11 +107,29 @@ header .second {
 
 main .section-grey {
     background-color: #A9A19E;
+    width: 1002px;
+    height: 680px;
 }
 
 main .section-yellow {
     background-color: #FAB131;
+    width: 1002px;
+    height: 680px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 button{
 
@@ -204,7 +222,7 @@ flex-wrap: wrap;
 justify-content:center;
 align-items: center;
 width: 1002px;
-margin: px;
+margin: 0px;
 }
 
 
