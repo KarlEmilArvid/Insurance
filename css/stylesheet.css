@@ -58,6 +58,28 @@ a:link { text-decoration: none; }
     width: 499px;
 }
 
+.bigcard h1{
+    font-family:'Frank Ruhl Libre', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    color: #000000;
+    width: 314px;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+.bigcard p{
+    font-family:'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    width: 268px;
+    margin: 0;
+}
+
 .header .header__family {
     width: 50%;
     height: 50%;
@@ -193,26 +215,7 @@ button{
     background: #FFFFFF;
 }
 
-.bigcard h1{
-    font-family:'Frank Ruhl Libre', serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 45px;
-    color: #000000;
-    width: 314px;
-    margin-top: 2rem;
-    margin-bottom: 0;
-}
 
-.bigcard p{
-    font-family:'Fira Sans', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    color: rgba(0, 0, 0, 0.6);
-    width: 268px;
-}
 
 .bigcard p span{
     color: #FFFFFF;
