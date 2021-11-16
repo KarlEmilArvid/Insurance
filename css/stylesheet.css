@@ -157,7 +157,7 @@ button{
     border: none;
 }
 
-.main{
+.main {
     display: grid;
     max-width: 1000px;
     grid-template-columns: repeat(8, 1fr);
