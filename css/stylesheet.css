@@ -88,18 +88,6 @@ a:link {
 
 }
 
-.header {
-    grid-area: header;
-}
-
-.main {
-    grid-area: main;
-}
-
-.footer {
-    grid-area: footer;
-}
-
 
 header .second {
     background-color: #FFB939;
@@ -128,6 +116,26 @@ button{
     line-height: 12px;
     color: rgba(0, 0, 0, 0.8);
     border: none;
+}
+
+.main{
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(auto);
+    grid-template-areas:
+    ". first first first first first first ."
+    ". second second second second second second .";
+}
+
+.section-grey {
+    grid-area: first;
+    width: 499px;
+}
+
+.section-yellow {
+    grid-area: second;
+    width: 499px;
 }
 
 .bigcard h1{
