@@ -365,6 +365,8 @@ footer h2{
     width: 340px;
     height: 400px;
     border: 5px solid black;
+    transform: translateY(-100px);
+    margin: 0;
 }
 
 .child__image {
@@ -372,8 +374,11 @@ footer h2{
     height: 200px;
     transform: translateY(-100px);
     object-fit: scale-down;
-    background-color: #C7DDEA;
-    margin: 0;
+    background: #C7DDEA url(..//img/child.png) no-repeat;
+    background-position: center -55%;
+    background-size: 40%;
+    border-radius: 4px;
+    
 }
 
 .child__heading {
@@ -395,6 +400,8 @@ footer h2{
     width: 340px;
     height: 400px;
     border: 5px solid black;
+    transform: translateY(-100px);
+    margin: 0;
 }
 
 .adult__image {
@@ -402,8 +409,10 @@ footer h2{
     height: 200px;
     transform: translateY(-100px);
     object-fit: scale-down;
-    background-color: #C7DDEA;
-    margin: 0;
+    background: #FAB131 url(..//img/adult.png) no-repeat;
+    background-position: center -5%;
+    background-size: 40%;
+    border-radius: 4px;
 }
 
 .adult__heading {
@@ -425,6 +434,8 @@ footer h2{
     width: 340px;
     height: 400px;
     border: 5px solid black;
+    transform: translateY(-100px);
+    margin: 0;
 }
 
 .old__image {
@@ -432,8 +443,10 @@ footer h2{
     height: 200px;
     transform: translateY(-100px);
     object-fit: scale-down;
-    background-color: #C7DDEA;
-    margin: 0;
+    background: #F17949 url(..//img/old.png) no-repeat;
+    background-position: center -20%;
+    background-size: 60%;
+    border-radius: 4px;
 }
 
 .old__heading {
