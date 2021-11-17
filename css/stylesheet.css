@@ -263,7 +263,6 @@ main .section-yellow {
     line-height: 100%;
     padding-top: 20px;
     margin: 10px 0px 20px 0px;
-    
 }
 
 .section-grey p{
@@ -276,8 +275,6 @@ main .section-yellow {
     line-height: 24px;
     height: 237px;
     margin: 0px 0px 0px 0px;
-
-
 }
 
 .yellow__paragraph {
@@ -288,7 +285,6 @@ main .section-yellow {
     color: rgba(0, 0, 0, 0.6);
     text-align:center;
     line-height: 20px;
-
 }
 
 .yellow__paragraph:nth-child(3){
@@ -378,9 +374,9 @@ footer h2{
     max-width: 1000px;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(auto);
+    grid-gap: 1.5rem;
     grid-template-areas:
     ". child child adult adult old old .";
-    grid-gap: 1.5rem;
 }
 
 .child {
@@ -431,7 +427,6 @@ footer h2{
     background-position: center -300%;
     background-size: 40%;
     border-radius: 4px;
-    
 }
 
 .adult__image {
@@ -496,7 +491,7 @@ footer h2{
 
 
 
-/** contact **/
+/** CONTACT **/
 
 .conheader {
     display: grid;
@@ -512,7 +507,7 @@ footer h2{
     grid-area: nav;
 }
 
-.banner{
+.banner {
     grid-area: banner;
     display: flex;
     flex-direction: column;
@@ -527,14 +522,14 @@ footer h2{
     background-size: 180px;
 }
 
-.banner h1{
-font-family:'Frank Ruhl Libre', serif;
-font-weight: 900;
-font-size: 45px;
-color: #000000;
+.banner h1 {
+    font-family:'Frank Ruhl Libre', serif;
+    font-weight: 900;
+    font-size: 45px;
+    color: #000000;
 }
 
-.contact{
+.contact {
     width: 1000px;
     height: 544px;
     background: #A9A19E;
@@ -545,13 +540,13 @@ color: #000000;
     padding: 4rem;
 }
 
-.form{
+.form {
     height: 500px;
     display: flex;
     flex-direction: column;
 }
 
-.form button{
+.form button {
     width: 101px;
     height: 30px;
     font-weight: bold;
@@ -562,7 +557,7 @@ color: #000000;
     margin-left: 230px;
 }
 
-textarea{
+textarea {
     width: 334px;
     height: 166px;
     background: #FEFEFE;
@@ -571,23 +566,21 @@ textarea{
     font-family: 'Fira Sans', sans-serif;
     font-size: 14px;
     padding: 1rem;
-    
 }
 
-::placeholder{
+::placeholder {
     color:rgba(0, 0, 0, 1);
 }
 
-input{
+input {
     width: 334px;
     height: 40px;
     background: #FEFEFE;
     border-radius: 2px;
     border: none;
-    
 }
 
-.contact h2{
+.contact h2 {
     width: 314px;
     font-family: 'Frank Ruhl Libre', serif;
     font-weight: 900;
@@ -595,11 +588,9 @@ input{
     color: #FFFFFF;
     margin: 20px;
     line-height: 100%;
-
-
 }
 
-.email, .subject{
+.email, .subject {
     font-family:'Fira Sans', sans-serif;
     font-weight: bold;
     font-size: 14px;
@@ -610,7 +601,7 @@ input{
     padding: 0px;
 }
 
-.map{
+.map {
     width: 1000px;
     height: 407px;
     background: url(..//img/map-contact.png);
@@ -632,7 +623,7 @@ input{
     background-color: #777574;
 }
 
-.map .mapbox{
+.map .mapbox {
     width: 323px;
     height: 206px;
     background: #FAB131;
@@ -641,7 +632,7 @@ input{
     margin: 0rem 3rem 2rem 2rem;
 }
 
-.map .mapbox h2{
+.map .mapbox h2 {
     font-family:'Frank Ruhl Libre', serif;
     font-weight: 900;
     font-size: 45px;    
@@ -650,10 +641,9 @@ input{
     text-align: center;
     padding-top: 1rem;
     line-height: 100%;
-
 }
 
-.map .mapbox p{
+.map .mapbox p {
     width: 150px;
     font-family:'Fira Sans', sans-serif;
     font-weight: 500;
