@@ -177,8 +177,11 @@ main .section-yellow {
     color: rgba(0, 0, 0, 0.6);
     text-align:center;
     line-height: 20px;
-    padding-bottom: 5rem;
 
+}
+
+.yellow__paragraph:nth-child(3){
+    padding-bottom: 5rem;
 }
 
 button{
