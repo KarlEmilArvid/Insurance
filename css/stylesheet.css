@@ -154,6 +154,7 @@ main .section-yellow {
     margin: 10px 0px 20px 0px;
     
 }
+
 .section-grey p{
     width:  280px;
     font-family: 'Fira Sans', sans-serif;
@@ -167,7 +168,6 @@ main .section-yellow {
 
 
 }
-
 
 .yellow__paragraph {
     width:  442px;
@@ -253,8 +253,6 @@ button{
     background: #FFFFFF;
 }
 
-
-
 .bigcard p span{
     color: #FFFFFF;
 }
@@ -308,8 +306,6 @@ nav :hover{
     color: #000000;
 }
 
-
-
 .sixcards{
     display: flex;
     flex-direction: row;
@@ -319,7 +315,6 @@ nav :hover{
     width: 1002px;
     margin: 0px;
 }
-
 
 .card1, .card2, .card3, .card4, .card5, .card6{
     text-align: center;
@@ -338,9 +333,7 @@ nav :hover{
     font-weight: 500;
     font-size: 17px;
     color: rgba(0, 0, 0, 0.7);
-    }
-
-
+}
 
 .card2 :nth-child(1), .card3 :nth-child(1), .card4 :nth-child(1), .card5 :nth-child(1), .card6 :nth-child(1){
     font-family:'Frank Ruhl Libre', serif;
@@ -399,78 +392,6 @@ footer h2{
     border-radius: 4px;
 }
 
-.child__image {
-    width: 250px;
-    height: 200px;
-    transform: translateY(-30px);
-    object-fit: scale-down;
-    background: #C7DDEA url(..//img/child.png) no-repeat;
-    background-position: center -55%;
-    background-size: 50%;
-    border-radius: 4px;
-    
-}
-
-.child__heading {
-    font-family: 'Frank Ruhl Libre';
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-}
-
-.adult__heading {
-    font-family: 'Frank Ruhl Libre';
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-}
-
-.old__heading {
-    font-family: 'Frank Ruhl Libre';
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-}
-
-.child__text {
-    font-family: 'fira sans';
-    font-weight: bold;
-    font-size: 11px;
-    opacity: 0.4;
-    margin: 0;
-    padding: 0;
-    text-align: justify;
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-
-.adult__text {
-    font-family: 'fira sans';
-    font-weight: bold;
-    font-size: 11px;
-    opacity: 0.4;
-    margin: 0;
-    padding: 0;
-    text-align: justify;
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-
-.old__text {
-    font-family: 'fira sans';
-    font-weight: bold;
-    font-size: 11px;
-    opacity: 0.4;
-    margin: 0;
-    padding: 0;
-    text-align: justify;
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-
 .adult {
     grid-area: adult;
     display: flex;
@@ -481,17 +402,6 @@ footer h2{
     transform: translateY(-100px);
     margin: 0;
     background-color: white;
-    border-radius: 4px;
-}
-
-.adult__image {
-    width: 250px;
-    height: 200px;
-    transform: translateY(-30px);
-    object-fit: scale-down;
-    background: #FAB131 url(..//img/adult.png) no-repeat;
-    background-position: center -20%;
-    background-size: 40%;
     border-radius: 4px;
 }
 
@@ -508,6 +418,29 @@ footer h2{
     border-radius: 4px;
 }
 
+.child__image {
+    width: 250px;
+    height: 200px;
+    transform: translateY(-30px);
+    object-fit: scale-down;
+    background: #C7DDEA url(..//img/child.png) no-repeat;
+    background-position: center -55%;
+    background-size: 50%;
+    border-radius: 4px;
+    
+}
+
+.adult__image {
+    width: 250px;
+    height: 200px;
+    transform: translateY(-30px);
+    object-fit: scale-down;
+    background: #FAB131 url(..//img/adult.png) no-repeat;
+    background-position: center -20%;
+    background-size: 40%;
+    border-radius: 4px;
+}
+
 .old__image {
     width: 250px;
     height: 200px;
@@ -518,6 +451,28 @@ footer h2{
     background-size: 60%;
     border-radius: 4px;
 }
+
+.child__heading, .adult__heading, .old__heading {
+    font-family: 'Frank Ruhl Libre';
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.child__text, .adult__text, .old__text {
+    font-family: 'fira sans';
+    font-weight: bold;
+    font-size: 11px;
+    opacity: 0.4;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
 
 
 
