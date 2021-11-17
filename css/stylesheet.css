@@ -115,12 +115,11 @@ main .section-grey {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     align-items: flex-start;
     align-content: space-around;
     background-color: #A9A19E;
     width: 1002px;
-    height: 540px;
+    height: 610px;
     padding: 3rem;
 }
 
@@ -151,8 +150,15 @@ main .section-yellow {
     color: #FFFFFF;
     line-height: 100%;
     padding-top: 20px;
-    margin: 10px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
     
+}
+
+
+.section-grey button{
+    
+    margin: 30px 0px 100px 0px;
+
 }
 
 .section-grey p{
@@ -164,10 +170,9 @@ main .section-yellow {
     text-align: left;
     line-height: 24px;
     height: 237px;
-    margin: 0px 0px 0px 0px;
-
-
+    margin: 20px 0px 0px 0px;
 }
+
 
 .yellow__paragraph {
     width:  442px;
