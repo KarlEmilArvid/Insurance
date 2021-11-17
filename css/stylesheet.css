@@ -36,7 +36,7 @@ a:link { text-decoration: none; }
     ". . nav nav nav nav . .";
 }
 
-.bigcard { grid-area: header; }
+.header__bigcard { grid-area: header; }
 .first { grid-area: first; }
 .second { grid-area: second; }
 .nav { grid-area: nav; }
@@ -49,7 +49,7 @@ a:link { text-decoration: none; }
     align-items: center;
 }
 
-.header .bigcard {
+.header .header__bigcard {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -63,7 +63,7 @@ a:link { text-decoration: none; }
     background-size: 280px;
 }
 
-.bigcard h1{
+.header__bigcard h1{
     font-family:'Frank Ruhl Libre', serif;
     font-style: normal;
     font-weight: 900;
@@ -76,7 +76,7 @@ a:link { text-decoration: none; }
 
 }
 
-.bigcard p{
+.header__bigcard p{
     font-family:'Fira Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
