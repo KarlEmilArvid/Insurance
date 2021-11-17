@@ -483,7 +483,7 @@ footer h2{
 
 /** CONTACT **/
 
-.conheader {
+.contact__header {
     display: grid;
     max-width: 1000px;
     grid-template-columns: repeat(8, 1fr);
@@ -493,7 +493,7 @@ footer h2{
     ". . nav nav nav nav . .";
 }
 
-.banner{
+.contact__banner {
     grid-area: banner;
     display: flex;
     flex-direction: column;
@@ -508,18 +508,18 @@ footer h2{
     background-size: 180px;
 }
 
-.contact-nav {
+.contact__nav {
     grid-area: nav;
 }
 
-.banner h1 {
+.contact__banner h1 {
     font-family:'Frank Ruhl Libre', serif;
     font-weight: 900;
     font-size: 45px;
     color: #000000;
 }
 
-.contact {
+.contact__main {
     width: 1000px;
     height: 544px;
     background: #A9A19E;
@@ -530,13 +530,13 @@ footer h2{
     padding: 4rem;
 }
 
-.form {
+.contact__form {
     height: 500px;
     display: flex;
     flex-direction: column;
 }
 
-.form button {
+.contact__form button {
     width: 101px;
     height: 30px;
     font-weight: bold;
@@ -571,7 +571,7 @@ input {
     
 }
 
-.contact h2 {
+.contact__main h2 {
     width: 314px;
     font-family: 'Frank Ruhl Libre', serif;
     font-weight: 900;
@@ -592,7 +592,7 @@ input {
     padding: 0px;
 }
 
-.map {
+.contact__map {
     width: 1000px;
     height: 407px;
     background: url(..//img/map-contact.png);
@@ -614,7 +614,7 @@ input {
     background-color: #777574;
 }
 
-.map .mapbox {
+.contact__mapbox {
     width: 323px;
     height: 206px;
     background: #FAB131;
@@ -623,7 +623,7 @@ input {
     margin: 0rem 3rem 2rem 2rem;
 }
 
-.map .mapbox h2 {
+.contact__mapbox h2 {
     font-family:'Frank Ruhl Libre', serif;
     font-weight: 900;
     font-size: 45px;    
@@ -634,7 +634,7 @@ input {
     line-height: 100%;
 }
 
-.map .mapbox p {
+.contact__mapbox p {
     width: 150px;
     font-family:'Fira Sans', sans-serif;
     font-weight: 500;
