@@ -131,7 +131,7 @@ main .section-yellow {
     align-items: center;
     background-color: #FAB131;
     width: 1002px;
-    /* height: 680px; */
+    height: 680px;
 }
 
 .yellow__heading{
@@ -376,7 +376,7 @@ footer h2{
     grid-template-rows: repeat(auto);
     grid-template-areas:
     ". child child adult adult old old .";
-    grid-gap: 2rem;
+    grid-gap: 1.5rem;
 }
 
 .child {
@@ -384,8 +384,8 @@ footer h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 280px;
-    height: 350px;
+    width: 260px;
+    height: 320px;
     transform: translateY(-100px);
     margin: 0;
     background-color: white;
@@ -397,8 +397,8 @@ footer h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 280px;
-    height: 350px;
+    width: 260px;
+    height: 320px;
     transform: translateY(-100px);
     margin: 0;
     background-color: white;
@@ -410,8 +410,8 @@ footer h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 280px;
-    height: 350px;
+    width: 260px;
+    height: 320px;
     transform: translateY(-100px);
     margin: 0;
     background-color: white;
@@ -419,35 +419,35 @@ footer h2{
 }
 
 .child__image {
-    width: 250px;
-    height: 200px;
+    width: 240px;
+    height: 170px;
     transform: translateY(-30px);
     object-fit: scale-down;
     background: #C7DDEA url(..//img/child.png) no-repeat;
-    background-position: center -55%;
-    background-size: 50%;
+    background-position: center -300%;
+    background-size: 40%;
     border-radius: 4px;
     
 }
 
 .adult__image {
-    width: 250px;
-    height: 200px;
+    width: 240px;
+    height: 170px;
     transform: translateY(-30px);
     object-fit: scale-down;
     background: #FAB131 url(..//img/adult.png) no-repeat;
-    background-position: center -20%;
+    background-position: center -10%;
     background-size: 40%;
     border-radius: 4px;
 }
 
 .old__image {
-    width: 250px;
-    height: 200px;
+    width: 240px;
+    height: 170px;
     transform: translateY(-30px);
     object-fit: scale-down;
     background: #F17949 url(..//img/old.png) no-repeat;
-    background-position: center -25%;
+    background-position: center -10%;
     background-size: 60%;
     border-radius: 4px;
 }
