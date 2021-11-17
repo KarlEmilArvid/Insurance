@@ -383,7 +383,7 @@ footer h2{
     grid-template-rows: repeat(auto);
     grid-template-areas:
     ". child child adult adult old old .";
-    grid-gap: 1rem;
+    grid-gap: 2rem;
 }
 
 .child {
@@ -412,13 +412,63 @@ footer h2{
 }
 
 .child__heading {
+    font-family: 'Frank Ruhl Libre';
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.adult__heading {
+    font-family: 'Frank Ruhl Libre';
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.old__heading {
+    font-family: 'Frank Ruhl Libre';
+    font-size: 24px;
+    font-weight: bold;
     margin: 0;
     padding: 0;
 }
 
 .child__text {
+    font-family: 'fira sans';
+    font-weight: bold;
+    font-size: 11px;
+    opacity: 0.4;
     margin: 0;
     padding: 0;
+    text-align: justify;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.adult__text {
+    font-family: 'fira sans';
+    font-weight: bold;
+    font-size: 11px;
+    opacity: 0.4;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.old__text {
+    font-family: 'fira sans';
+    font-weight: bold;
+    font-size: 11px;
+    opacity: 0.4;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .adult {
@@ -445,16 +495,6 @@ footer h2{
     border-radius: 4px;
 }
 
-.adult__heading {
-    margin: 0;
-    padding: 0;
-}
-
-.adult__text {
-    margin: 0;
-    padding: 0;
-}
-
 .old {
     grid-area: old;
     display: flex;
@@ -478,17 +518,6 @@ footer h2{
     background-size: 60%;
     border-radius: 4px;
 }
-
-.old__heading {
-    margin: 0;
-    padding: 0;
-}
-
-.old__text {
-    margin: 0;
-    padding: 0;
-}
-
 
 
 
