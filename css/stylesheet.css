@@ -133,7 +133,7 @@ main .section-yellow {
     height: 680px;
 }
 
-.section-yellow h2{
+.yellow__heading{
     width: 314px;
     font-family: 'Frank Ruhl Libre', serif;
     font-weight: 900;
@@ -164,7 +164,7 @@ main .section-yellow {
 }
 
 
-.section-yellow p {
+.yellow__paragraph {
     width:  442px;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 500;
@@ -374,7 +374,7 @@ footer h2{
     grid-template-rows: repeat(auto);
     grid-template-areas:
     ". child child adult adult old old .";
-
+    grid-gap: 1rem;
 }
 
 .child {
@@ -388,6 +388,7 @@ footer h2{
     border: 2px solid black;
     transform: translateY(-100px);
     margin: 0;
+    background-color: white;
 }
 
 .child__image {
@@ -423,6 +424,7 @@ footer h2{
     border: 2px solid black;
     transform: translateY(-100px);
     margin: 0;
+    background-color: white;
 }
 
 .adult__image {
@@ -457,6 +459,7 @@ footer h2{
     border: 2px solid black;
     transform: translateY(-100px);
     margin: 0;
+    background-color: white;
 }
 
 .old__image {
