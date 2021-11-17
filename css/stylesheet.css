@@ -515,9 +515,10 @@ footer h2{
 .banner{
     grid-area: banner;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    width: 1002px;
+    align-items: center;
+    width: 1000px;
     height: 340px;
     background: url(..//img/man-and-child.png) #C7DDEA;
     background-size: cover;
@@ -527,7 +528,6 @@ footer h2{
 }
 
 .banner h1{
-text-align: center;
 font-family:'Frank Ruhl Libre', serif;
 font-weight: 900;
 font-size: 45px;
@@ -535,14 +535,14 @@ color: #000000;
 }
 
 .contact{
-    width: 1002px;
+    width: 1000px;
     height: 544px;
     background: #A9A19E;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
-    padding: 3rem;
+    padding: 4rem;
 }
 
 .form{
@@ -571,6 +571,7 @@ textarea{
     font-family: 'Fira Sans', sans-serif;
     font-size: 14px;
     padding: 1rem;
+    
 }
 
 ::placeholder{
@@ -583,15 +584,19 @@ input{
     background: #FEFEFE;
     border-radius: 2px;
     border: none;
+    
 }
 
 .contact h2{
     width: 314px;
-    height: 140px;
     font-family: 'Frank Ruhl Libre', serif;
     font-weight: 900;
     font-size: 45px;    
     color: #FFFFFF;
+    margin: 20px;
+    line-height: 100%;
+
+
 }
 
 .email, .subject{
@@ -602,10 +607,11 @@ input{
     opacity: 0.7;
     margin-top: 20px;
     margin-bottom: 10px;
+    padding: 0px;
 }
 
 .map{
-    width: 1002px;
+    width: 1000px;
     height: 407px;
     background: url(..//img/map-contact.png);
     background-size: auto;
@@ -620,7 +626,7 @@ input{
 }
 
 .map__background {
-    width: 1002px;
+    width: 1000px;
     height: 300px;
     background-color: #777574;
 }
