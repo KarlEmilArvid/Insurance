@@ -562,7 +562,17 @@ textarea{
     border-radius: 2px;
     border: none;
 
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    padding: 1rem;
 }
+
+::placeholder{
+    color:rgba(0, 0, 0, 1);
+    
+}
+
+
 
 input{
     width: 334px;
