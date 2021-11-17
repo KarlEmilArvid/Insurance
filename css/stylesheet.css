@@ -23,6 +23,8 @@ body {
 
 a:link { text-decoration: none; }
 
+/* HEADER */
+
 .header{
     display: grid;
     max-width: 1000px;
@@ -36,9 +38,9 @@ a:link { text-decoration: none; }
     ". . nav nav nav nav . .";
 }
 
-.bigcard { grid-area: header; }
-.first { grid-area: first; }
-.second { grid-area: second; }
+.header__bigcard { grid-area: header; }
+.header__orange { grid-area: first; }
+.header__yellow { grid-area: second; }
 .nav { grid-area: nav; }
 
 .wrapper{
@@ -49,7 +51,7 @@ a:link { text-decoration: none; }
     align-items: center;
 }
 
-.header .bigcard {
+.header .header__bigcard {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -63,7 +65,7 @@ a:link { text-decoration: none; }
     background-size: 280px;
 }
 
-.bigcard h1{
+.header__bigcard h1{
     font-family:'Frank Ruhl Libre', serif;
     font-style: normal;
     font-weight: 900;
@@ -73,10 +75,9 @@ a:link { text-decoration: none; }
     margin-top: 2rem;
     margin-bottom: 1.5rem;
     line-height: 100%;
-
 }
 
-.bigcard p{
+.header__bigcard p{
     font-family:'Fira Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -86,7 +87,10 @@ a:link { text-decoration: none; }
     width: 268px;
     margin: 0;
     margin-right: 3rem;
+}
 
+.header__bigcard p span{
+    color: #FFFFFF;
 }
 
 .header .header__family {
@@ -95,7 +99,7 @@ a:link { text-decoration: none; }
     margin-left: 14rem;
 }
 
-.header .first {
+.header .header__orange {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,12 +107,119 @@ a:link { text-decoration: none; }
     width: 499px;
 }
 
-.header .second {
+.header .header__yellow {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #FFB939;
     width: 499px;
+}
+
+.header__orange, .header__yellow{
+    display: flex;
+    flex-direction: column;
+}
+
+.header__orange h2, .header__yellow h2{
+    font-family:'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.header__orange a, .header__yellow a{
+    font-family:'Frank Ruhl Libre', serif;
+    font-weight: 900;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.header__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-right: 12rem;
+}
+
+/* NAV */
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 45px;
+}
+
+nav a{
+    padding-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    color: #00000075;
+}
+
+nav .nav__home {
+    color: #000000;
+}
+
+nav :hover{
+    opacity: 0.4;
+    padding-top: 15px;
+    font-family:'Fira Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #000000;
+}
+
+/* MAIN */
+
+.main {
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(auto);
+    grid-template-areas:
+    ". first first first first first first ."
+    ". second second second second second second ."
+    ". card1 card1 card2 card2 card3 card3 ."
+    ". card4 card4 card5 card5 card6 card6 .";
+}
+
+.section-grey { grid-area: first; }
+.section-yellow { grid-area: second; }
+
+.card1 {
+    grid-area: card1;
+    display: flex;
+    align-items: center;
+    background: #C7DDEA;
+}
+
+.card2 {
+    grid-area: card2;
+    background: #ffffff;
+}
+
+.card3 {
+    grid-area: card3;
+    background: #EBEBEB;
+}
+
+.card4 {
+    grid-area: card4;
+    background: #FFFFFF;
+}
+
+.card5{
+    grid-area: card5;
+    background: #F17949;
+}
+.card6{
+    grid-area: card6;
+    background: #FFFFFF;
 }
 
 main .section-grey {
@@ -197,113 +308,6 @@ button{
     line-height: 12px;
     color: rgba(0, 0, 0, 0.8);
     border: none;
-}
-
-.header__button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3rem;
-    margin-right: 12rem;
-}
-
-.main {
-    display: grid;
-    max-width: 1000px;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(auto);
-    grid-template-areas:
-    ". first first first first first first ."
-    ". second second second second second second ."
-    ". card1 card1 card2 card2 card3 card3 ."
-    ". card4 card4 card5 card5 card6 card6 .";
-}
-
-.section-grey { grid-area: first; }
-.section-yellow { grid-area: second; }
-
-.card1 {
-    grid-area: card1;
-    display: flex;
-    align-items: center;
-    background: #C7DDEA;
-}
-
-.card2 {
-    grid-area: card2;
-    background: #ffffff;
-}
-
-.card3 {
-    grid-area: card3;
-    background: #EBEBEB;
-}
-
-.card4 {
-    grid-area: card4;
-    background: #FFFFFF;
-}
-
-.card5{
-    grid-area: card5;
-    background: #F17949;
-}
-.card6{
-    grid-area: card6;
-    background: #FFFFFF;
-}
-
-.bigcard p span{
-    color: #FFFFFF;
-}
-
-.first, .second{
-    display: flex;
-    flex-direction: column;
-}
-
-.first h2, .second h2{
-    font-family:'Fira Sans', sans-serif;
-    font-weight: bold;
-    font-size: 11px;
-    color: rgba(0, 0, 0, 0.5);
-}
-
-.first a, .second a{
-    font-family:'Frank Ruhl Libre', serif;
-    font-weight: 900;
-    font-size: 32px;
-    color: #FFFFFF;
-}
-
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 45px;
-}
-
-nav a{
-    padding-top: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    letter-spacing: -0.02em;
-    color: #00000075;
-}
-
-nav .nav__home {
-    color: #000000;
-}
-
-nav :hover{
-    opacity: 0.4;
-    padding-top: 15px;
-    font-family:'Fira Sans', sans-serif;
-    font-weight: 600;
-    font-size: 12px;
-    color: #000000;
 }
 
 .sixcards{
