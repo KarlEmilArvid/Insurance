@@ -214,7 +214,7 @@ nav :hover{
     align-items: flex-start;
     align-content: space-around;
     background-color: #A9A19E;
-    width: 1002px;
+    width: 1000px;
     height: 610px;
     padding: 3rem;
 }
@@ -225,7 +225,7 @@ nav :hover{
     justify-content: center;
     align-items: center;
     background-color: #FAB131;
-    width: 1002px;
+    width: 1000px;
     height: 680px;
 }
 
@@ -299,13 +299,13 @@ button {
     flex-wrap: wrap;
     justify-content:center;
     align-items: center;
-    width: 1002px;
+    width: 1000px;
     margin: 0px;
 }
 
 .card__one, .card__two, .card__three, .card__four, .card__five, .card__six{
     text-align: center;
-    width: 334px;
+    width: 333px;
     height: 340px;
     padding: 2rem;
 }
