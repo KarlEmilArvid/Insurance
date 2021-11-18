@@ -286,8 +286,7 @@ button {
     box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
     border-radius: 100px;
     font-family:'Fira Sans', sans-serif;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 18px;
     line-height: 12px;
     color: rgba(0, 0, 0, 0.8);
@@ -359,7 +358,6 @@ footer h2{
     color: rgba(0, 0, 0, 0.7);
     margin-top: -10px;
 }
-
 
 
 /** PROFILE CARDS **/
@@ -544,7 +542,6 @@ footer h2{
 .contact__form button {
     width: 101px;
     height: 30px;
-    font-weight: bold;
     font-size: 10px;
     align-items: center;
     text-align: center;
