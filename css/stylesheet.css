@@ -341,7 +341,7 @@ button {
 /** FOOTER **/
 
 footer section{
-    width: 1002px;
+    width: 1000px;
     height: 68px;
     background: #A9A19E;
     display: flex;
@@ -612,7 +612,7 @@ input {
 }
 
 .map__background {
-    width: 1002px;
+    width: 1000px;
     height: 340px;
     background-color: #777574;
 }
