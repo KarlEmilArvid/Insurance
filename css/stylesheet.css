@@ -342,10 +342,13 @@ button {
 /** FOOTER **/
 
 footer section{
-    padding: 1rem;
     width: 1002px;
     height: 68px;
     background: #A9A19E;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }
 
 footer h2{
@@ -354,7 +357,9 @@ footer h2{
     font-weight: 500;
     font-size: 17px;
     color: rgba(0, 0, 0, 0.7);
+    margin-top: -10px;
 }
+
 
 
 /** PROFILE CARDS **/
